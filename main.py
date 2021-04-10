@@ -21,7 +21,7 @@ def create_bacha(year, month, day, hour, minute, query):
             'memo': '',
             'start_epoch_second': epoch,
             'duration_second': 3600,
-            'mode': 'null',
+            'mode': None,
             'penalty_second': 300,
             'is_public': False
         }),
